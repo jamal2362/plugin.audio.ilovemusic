@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.ilovemusic" name="I Love Music" version="1.0.0" provider-name="jamal2362">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.4.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">I Love Music</summary>
+        <description lang="en_GB">ilovemusic.de - Internet radio with I Love Radio and 30+ other channels</description>
+		<description lang="de_DE">ilovemusic.de - Internetradio mit I Love Radio und 30+ weiteren Channels</description>
+        <disclaimer lang="en_GB">This is not an official addon!</disclaimer>
+		<disclaimer lang="de_DE">Es handelt sich nicht um ein offizielles Addon!</disclaimer>
+        <license>GNU General Public License v2.0 only</license>
+        <source>https://github.com/jamal2362/plugin.audio.ilovemusic</source>
+        <platform>all</platform>
+        <website>www.ilovemusic.de</website>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
